@@ -1,4 +1,6 @@
 <?php
+require_once('elementor-custom-widgets.php');
+
 /**
  * Theme functions and definitions
  *

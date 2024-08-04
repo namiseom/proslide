@@ -1,6 +1,8 @@
 <?php
 namespace proslide;
 
+use Elementor\Plugin;
+
 class Widgets_loader {
     private static $_instance = null;
 
@@ -32,5 +34,4 @@ class Widgets_loader {
 }
 
 Widgets_Loader::instance();
-
 ?>

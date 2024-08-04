@@ -33,7 +33,7 @@ function ccf_contact_form_shortcode() {
         <input type="text" id="ccf-subject" name="ccf-subject" placeholder="“I need a Pro design!”">
         <label for="ccf-message">Message:</label>
         <textarea id="ccf-message" name="ccf-message" placeholder="We're happy to help! Describe your inquiry and we will reach out soon." required></textarea>
-        <button type="submit">Send Message <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M8.95001 0.530029L8.95001 4.53003L0.030012 4.53003L1.11814e-05 6.54003L8.95001 6.54003L8.95001 10.53L13.95 5.53003L8.95001 0.530029Z" fill="#FF4848"></path></svg></button>
+        <button type="submit" class="bounce-arrow">Send Message <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M8.95001 0.530029L8.95001 4.53003L0.030012 4.53003L1.11814e-05 6.54003L8.95001 6.54003L8.95001 10.53L13.95 5.53003L8.95001 0.530029Z" fill="#FF4848"></path></svg></button>
     </form>
     <div id="ccf-response"></div>
     <?php
